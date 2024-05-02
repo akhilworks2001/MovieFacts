@@ -57,7 +57,7 @@ export default function Banner() {
                     onKeyUp={() => searchQueryHandle}
                     value={query}
                     />
-                    <button onClick={() => searchQueryHandle}>Search</button>
+                    <button>Search</button>
                 </div>
             </div>
         </ContentWrapper>    
