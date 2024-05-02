@@ -25,7 +25,7 @@ export default function Banner() {
     }, [data]);
 
     const searchQueryHandle = (event) => {
-        if (event.key === "Enter" && query.length > 0) {
+        if (query.length > 0) {
             navigate(`/search/${query}`);
         }
     }
