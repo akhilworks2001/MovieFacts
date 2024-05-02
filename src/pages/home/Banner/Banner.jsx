@@ -54,7 +54,7 @@ export default function Banner() {
                     type="text"
                     placeholder="Search for a movie or tv show..."
                     onChange={(e) => setQuery(e.target.value)}
-                    onKeyUp={() => searchQueryHandle}
+                    onKeyUp={searchQueryHandle}
                     value={query}
                     />
                     <button>Search</button>
